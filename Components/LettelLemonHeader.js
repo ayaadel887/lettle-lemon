@@ -3,14 +3,13 @@ import { Text, View } from "react-native";
 
 const LettelLemonHeader = () => {
   return (
-    <View style={{ flex: 0.1, backgroundColor: "#F4CE14" }}>
+    <View style={{ backgroundColor: "#F4CE14" }}>
       <Text
         style={{
-          fontWeight: "bold",
-          textAlign: "center",
-          color: "black",
-          padding: 35,
+          padding: 40,
           fontSize: 30,
+          color: "black",
+          textAlign: "center",
         }}
       >
         Little Lemon
@@ -18,5 +17,4 @@ const LettelLemonHeader = () => {
     </View>
   );
 };
-
 export default LettelLemonHeader;
