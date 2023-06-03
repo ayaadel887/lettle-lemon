@@ -1,18 +1,12 @@
 import { StyleSheet, View } from "react-native";
-import LettelLemonHeader from "./Components/LettelLemonHeader";
+import HeaderLemon from "./Components/HeaderLemon";
 import Footer from "./Components/Footer";
 import WelcomeScreen from "./Components/WelcomeScreen";
-import ScrollMenu from "./Components/ScrollMenu";
 
 export default function App() {
   return (
-    <View
-      style={{
-        flex: 1,
-        backgroundColor: "#495E57",
-      }}
-    >
-      <LettelLemonHeader />
+    <View style={styles.container}>
+      <HeaderLemon />
       <WelcomeScreen />
       <View style={{ backgroundColor: "#495E57" }}>
         <Footer />
