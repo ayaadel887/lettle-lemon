@@ -1,14 +1,18 @@
 import { StyleSheet, View } from "react-native";
 import HeaderLemon from "./Components/HeaderLemon";
 import Footer from "./Components/Footer";
-import WelcomeScreen from "./Components/WelcomeScreen";
+// import WelcomeScreen from "./Components/WelcomeScreen";
+import FlatListmenue from "./Components/FlatListmenue";
+import MenueItem from "./Components/SectionListMenueItem";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <HeaderLemon />
-      <WelcomeScreen />
-      <View style={{ backgroundColor: "#495E57" }}>
+      {/* <WelcomeScreen /> */}
+      <FlatListmenue />
+      <MenueItem />
+      <View style={styles.footerContainer}>
         <Footer />
       </View>
     </View>
@@ -18,7 +22,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-
-    backgroundColor: "#495E57",
+    backgroundColor: "#333333",
   },
+  footerContainer: { backgroundColor: "#333333" },
 });
