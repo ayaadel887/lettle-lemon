@@ -4,14 +4,20 @@ import Footer from "./Components/Footer";
 // import WelcomeScreen from "./Components/WelcomeScreen";
 import FlatListmenue from "./Components/FlatListmenue";
 import MenueItem from "./Components/SectionListMenueItem";
+import Frominput from "./Components/Frominput";
+import FormKeaboard from "./Components/FormKeaboard";
+import LoginScreen from "./Components/LoginScreen";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <HeaderLemon />
+      <LoginScreen />
       {/* <WelcomeScreen /> */}
-      <FlatListmenue />
-      <MenueItem />
+      {/* <FormKeaboard /> */}
+      {/* <Frominput /> */}
+      {/* <FlatListmenue />
+      <MenueItem /> */}
       <View style={styles.footerContainer}>
         <Footer />
       </View>
