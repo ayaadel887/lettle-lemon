@@ -9,14 +9,12 @@ import FormKeaboard from "./Components/FormKeaboard";
 import LoginScreen from "./Components/LoginScreen";
 import TextInputMethod from "./Components/TextInputMethod";
 import MenuItems from "./Components/presable";
-import Pr from "./Components/Pr";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <HeaderLemon />
-      <Pr />
-      {/* <MenuItems /> */}
+      <MenuItems />
       {/* <TextInputMethod /> */}
       {/* <LoginScreen /> */}
       {/* <WelcomeScreen /> */}
