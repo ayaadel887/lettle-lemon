@@ -1,7 +1,7 @@
 import { StyleSheet, View } from "react-native";
 import HeaderLemon from "./Components/HeaderLemon";
 import Footer from "./Components/Footer";
-// import WelcomeScreen from "./Components/WelcomeScreen";
+import WelcomeScreen from "./Components/WelcomeScreen";
 import FlatListmenue from "./Components/FlatListmenue";
 import MenueItem from "./Components/SectionListMenueItem";
 import Frominput from "./Components/Frominput";
@@ -16,8 +16,8 @@ export default function App() {
       <HeaderLemon />
       {/* <MenuItems /> */}
       {/* <TextInputMethod /> */}
-      <LoginScreen />
-      {/* <WelcomeScreen /> */}
+      {/* <LoginScreen /> */}
+      <WelcomeScreen />
       {/* <FormKeaboard /> */}
       {/* <Frominput /> */}
       {/* <FlatListmenue />
